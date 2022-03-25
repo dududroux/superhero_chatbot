@@ -1,0 +1,25 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings", "Are you there ?"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+  },
+  {"tag":  "SuperHero",
+  "patterns":  ["Do you like super heroes?", "Are you familiar with super heroes?"],
+  "responses":  ["Yes", "I love them", "Yes, I know them all !!!"]},
+  {
+    "tag":  "Presentation",
+    "patterns":  ["What can you do for me ?", "What do you do ?", "What can you do ?"],
+    "responses":  ["I can give informations on a hero ! To do so use !describe *name of the hero or random if you want to discover one*. I can also recommand you a hero just say !recommand."]
+  },
+  {
+    "tag":  "Game",
+    "patterns":  ["Let's play !", "I want to play", "Wanna play", "Do you want to play", "Can we play"],
+    "responses":  ["Just say !guess"]
+  },
+  {
+    "tag":  "Help",
+    "patterns":  ["Need Help !", "Help me", "Help"],
+    "responses":  ["Just say !helpme to discover all the command"]
+  }
+]
+}
