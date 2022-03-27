@@ -101,4 +101,4 @@ async def describe_error(ctx, error):
         if isinstance(error, discord.ext.commands.errors.MissingRequiredArgument):
                 await ctx.send("Put the name of a hero after !describe or just random !")
 
-bot.run(TOKEN)
+bot.run(TOKEN)  #The token might be expired 
